@@ -1,0 +1,350 @@
+transaction_id,date,description,amount,category,account_type
+1,2025-04-03,Paycheck Direct Deposit,3500.0,Income,Checking
+2,2025-04-03,Home Depot,-24.06,Shopping,Checking
+3,2025-04-04,Electric Company,-124.75987589205187,Utilities,Checking
+4,2025-04-05,Target,-219.07,Shopping,Credit Card
+5,2025-04-07,Doctor Visit,-145.67,Healthcare,Credit Card
+6,2025-04-08,Internet Provider,-79.99,Utilities,Checking
+7,2025-04-10,Target,-32.57,Groceries,Credit Card
+8,2025-04-11,Phone Bill,-58.26,Utilities,Credit Card
+9,2025-04-14,Target,-215.8,Shopping,Checking
+10,2025-04-14,Internet Provider,-79.58,Utilities,Checking
+11,2025-04-14,Doctor Visit,-175.97,Healthcare,Credit Card
+12,2025-04-16,Local Cafe,-28.25,Dining,Credit Card
+13,2025-04-16,Electric Company,-64.82,Utilities,Checking
+14,2025-04-16,Target,-61.57,Shopping,Credit Card
+15,2025-04-17,Paycheck Direct Deposit,3500.0,Income,Checking
+16,2025-04-18,Water Company,-85.86,Utilities,Checking
+17,2025-04-18,Chipotle,-53.89,Dining,Credit Card
+18,2025-04-18,Netflix,-15.99,Entertainment,Credit Card
+19,2025-04-21,Phone Bill,-90.8,Utilities,Credit Card
+20,2025-04-21,Burger Joint,-36.46,Dining,Credit Card
+21,2025-04-21,Local Cafe,-15.96,Dining,Credit Card
+22,2025-04-22,Pharmacy,-47.51,Healthcare,Checking
+23,2025-04-22,Home Depot,-40.91,Shopping,Checking
+24,2025-04-23,Gym Membership,-45.0,Entertainment,Credit Card
+25,2025-04-23,Dental Office,-40.08,Healthcare,Credit Card
+26,2025-04-23,Electric Company,-71.35,Utilities,Credit Card
+27,2025-04-23,Clothing Store,-291.76,Shopping,Checking
+28,2025-04-23,Amazon,-124.66,Shopping,Credit Card
+29,2025-04-26,Local Cafe,-51.46,Dining,Checking
+30,2025-04-26,Dental Office,-171.5,Healthcare,Checking
+31,2025-04-26,Target,-159.69,Shopping,Checking
+32,2025-04-27,Whole Foods,-140.78,Groceries,Credit Card
+33,2025-04-27,Burger Joint,-35.09,Dining,Checking
+34,2025-04-27,Target,-126.08,Groceries,Checking
+35,2025-04-27,Chipotle,-21.73,Dining,Checking
+36,2025-04-29,Thai Restaurant,-51.05,Dining,Checking
+37,2025-04-29,Gym Membership,-50.63,Entertainment,Checking
+38,2025-04-29,Water Company,-45.91,Utilities,Credit Card
+39,2025-04-29,Chipotle,-27.27,Dining,Checking
+40,2025-04-30,Whole Foods,-49.76,Groceries,Checking
+41,2025-05-01,Target,-94.37,Shopping,Credit Card
+42,2025-05-03,Paycheck Direct Deposit,3500.0,Income,Checking
+43,2025-05-04,Pizza Place,-54.03,Dining,Checking
+44,2025-05-04,Whole Foods,-105.67,Groceries,Credit Card
+45,2025-05-04,Concert Venue,-52.03,Entertainment,Checking
+46,2025-05-04,Electric Company,-15.46,Utilities,Credit Card
+47,2025-05-04,Electric Company,-81.75075286558669,Utilities,Checking
+48,2025-05-05,Starbucks,-18.84,Dining,Credit Card
+49,2025-05-08,Gym Membership,-18.81,Entertainment,Checking
+50,2025-05-08,Internet Provider,-79.99,Utilities,Checking
+51,2025-05-09,Health Insurance,-182.44,Healthcare,Checking
+52,2025-05-09,Pizza Place,-35.68,Dining,Checking
+53,2025-05-10,Starbucks,-24.91,Dining,Checking
+54,2025-05-10,Best Buy,-32.37,Shopping,Credit Card
+55,2025-05-10,Whole Foods,-95.94,Groceries,Checking
+56,2025-05-10,Public Transit,-26.39,Transportation,Credit Card
+57,2025-05-12,Costco,-28.83,Groceries,Checking
+58,2025-05-12,Netflix,-94.74,Entertainment,Checking
+59,2025-05-13,Amazon,-134.48,Shopping,Credit Card
+60,2025-05-14,Water Company,-31.48,Utilities,Credit Card
+61,2025-05-14,Burger Joint,-44.79,Dining,Credit Card
+62,2025-05-15,Target,-100.75,Groceries,Checking
+63,2025-05-17,Paycheck Direct Deposit,3500.0,Income,Checking
+64,2025-05-18,Netflix,-15.99,Entertainment,Credit Card
+65,2025-05-19,Local Cafe,-24.24,Dining,Credit Card
+66,2025-05-20,Electric Company,-94.5,Utilities,Checking
+67,2025-05-20,Best Buy,-17.23,Shopping,Credit Card
+68,2025-05-20,Uber,-71.73,Transportation,Checking
+69,2025-05-22,Burger Joint,-44.15,Dining,Credit Card
+70,2025-05-22,Home Depot,-86.57,Shopping,Checking
+71,2025-05-22,Target,-127.82,Groceries,Checking
+72,2025-05-23,Gym Membership,-45.0,Entertainment,Credit Card
+73,2025-05-24,Burger Joint,-33.18,Dining,Credit Card
+74,2025-05-24,Amazon,-46.88,Shopping,Checking
+75,2025-05-24,Amazon,-252.86,Shopping,Checking
+76,2025-05-25,Gas Station,-72.42,Transportation,Checking
+77,2025-05-26,Internet Provider,-70.02,Utilities,Credit Card
+78,2025-05-26,Health Insurance,-195.29,Healthcare,Checking
+79,2025-05-27,Doctor Visit,-195.72,Healthcare,Checking
+80,2025-05-27,Netflix,-26.14,Entertainment,Credit Card
+81,2025-05-28,Pizza Place,-27.93,Dining,Checking
+82,2025-05-28,Chipotle,-45.62,Dining,Credit Card
+83,2025-05-28,Netflix,-87.27,Entertainment,Checking
+84,2025-05-28,Doctor Visit,-68.03,Healthcare,Checking
+85,2025-05-29,Dental Office,-83.21,Healthcare,Credit Card
+86,2025-05-30,Whole Foods,-97.55,Groceries,Credit Card
+87,2025-05-30,Thai Restaurant,-62.86,Dining,Credit Card
+88,2025-05-30,Whole Foods,-134.01,Groceries,Credit Card
+89,2025-05-31,Phone Bill,-10.15,Utilities,Checking
+90,2025-05-31,Gym Membership,-27.11,Entertainment,Checking
+91,2025-05-31,Gym Membership,-98.58,Entertainment,Checking
+92,2025-06-01,Water Company,-66.08,Utilities,Checking
+93,2025-06-02,Concert Venue,-70.96,Entertainment,Checking
+94,2025-06-02,Movie Theater,-59.9,Entertainment,Checking
+95,2025-06-02,Clothing Store,-205.06,Shopping,Credit Card
+96,2025-06-02,Paycheck Direct Deposit,3500.0,Income,Checking
+97,2025-06-03,Electric Company,-99.25205228583835,Utilities,Checking
+98,2025-06-03,Gym Membership,-85.04,Entertainment,Credit Card
+99,2025-06-03,Lyft,-37.24,Transportation,Credit Card
+100,2025-06-03,Concert Venue,-49.79,Entertainment,Checking
+101,2025-06-04,Trader Joes,-107.46,Groceries,Checking
+102,2025-06-04,Electric Company,-35.54,Utilities,Credit Card
+103,2025-06-05,Amazon,-144.79,Shopping,Checking
+104,2025-06-05,Whole Foods,-51.83,Groceries,Credit Card
+105,2025-06-06,Target,-276.48,Shopping,Checking
+106,2025-06-06,Burger Joint,-37.52,Dining,Checking
+107,2025-06-06,Pharmacy,-160.12,Healthcare,Checking
+108,2025-06-06,Concert Venue,-31.96,Entertainment,Checking
+109,2025-06-07,Burger Joint,-57.11,Dining,Credit Card
+110,2025-06-07,Internet Provider,-79.99,Utilities,Checking
+111,2025-06-07,Lyft,-67.99,Transportation,Credit Card
+112,2025-06-07,Water Company,-95.5,Utilities,Credit Card
+113,2025-06-07,Best Buy,-136.62,Shopping,Credit Card
+114,2025-06-08,Water Company,-31.1,Utilities,Credit Card
+115,2025-06-08,Parking,-11.04,Transportation,Checking
+116,2025-06-08,Pizza Place,-47.56,Dining,Checking
+117,2025-06-08,Internet Provider,-34.71,Utilities,Checking
+118,2025-06-10,Netflix,-28.62,Entertainment,Credit Card
+119,2025-06-10,Gym Membership,-95.15,Entertainment,Checking
+120,2025-06-10,Health Insurance,-105.86,Healthcare,Credit Card
+121,2025-06-10,Public Transit,-69.01,Transportation,Credit Card
+122,2025-06-11,Spotify,-34.56,Entertainment,Credit Card
+123,2025-06-11,Target,-63.7,Groceries,Credit Card
+124,2025-06-12,Phone Bill,-22.21,Utilities,Credit Card
+125,2025-06-12,Best Buy,-203.95,Shopping,Checking
+126,2025-06-12,Thai Restaurant,-38.45,Dining,Credit Card
+127,2025-06-12,Chipotle,-22.83,Dining,Credit Card
+128,2025-06-14,Pharmacy,-190.93,Healthcare,Checking
+129,2025-06-14,Lyft,-53.76,Transportation,Checking
+130,2025-06-14,Netflix,-77.41,Entertainment,Checking
+131,2025-06-14,Public Transit,-23.92,Transportation,Checking
+132,2025-06-15,Target,-147.53,Shopping,Credit Card
+133,2025-06-15,Starbucks,-34.99,Dining,Checking
+134,2025-06-16,Doctor Visit,-193.65,Healthcare,Checking
+135,2025-06-16,Best Buy,-289.66,Shopping,Checking
+136,2025-06-16,Paycheck Direct Deposit,3500.0,Income,Checking
+137,2025-06-17,Safeway,-130.54,Groceries,Checking
+138,2025-06-17,Home Depot,-128.05,Shopping,Checking
+139,2025-06-17,Costco,-109.78,Groceries,Checking
+140,2025-06-17,Netflix,-15.99,Entertainment,Credit Card
+141,2025-06-18,Parking,-37.13,Transportation,Credit Card
+142,2025-06-20,Health Insurance,-168.02,Healthcare,Checking
+143,2025-06-21,Phone Bill,-73.66,Utilities,Credit Card
+144,2025-06-21,Burger Joint,-37.74,Dining,Credit Card
+145,2025-06-21,Best Buy,-235.77,Shopping,Credit Card
+146,2025-06-22,Lyft,-67.3,Transportation,Checking
+147,2025-06-22,Gym Membership,-45.0,Entertainment,Credit Card
+148,2025-06-22,Best Buy,-205.43,Shopping,Credit Card
+149,2025-06-22,Public Transit,-23.29,Transportation,Credit Card
+150,2025-06-24,Spotify,-41.93,Entertainment,Credit Card
+151,2025-06-24,Gas Station,-71.02,Transportation,Credit Card
+152,2025-06-25,Trader Joes,-113.61,Groceries,Credit Card
+153,2025-06-25,Target,-211.82,Shopping,Credit Card
+154,2025-06-26,Safeway,-48.81,Groceries,Checking
+155,2025-06-27,Water Company,-41.66,Utilities,Credit Card
+156,2025-06-27,Gym Membership,-57.78,Entertainment,Credit Card
+157,2025-06-27,Gas Station,-23.86,Transportation,Checking
+158,2025-06-28,Costco,-143.61,Groceries,Checking
+159,2025-06-28,Starbucks,-50.1,Dining,Credit Card
+160,2025-06-28,Water Company,-98.25,Utilities,Checking
+161,2025-06-30,Phone Bill,-19.23,Utilities,Checking
+162,2025-06-30,Costco,-57.98,Groceries,Checking
+163,2025-06-30,Costco,-36.46,Groceries,Checking
+164,2025-07-01,Concert Venue,-16.67,Entertainment,Checking
+165,2025-07-01,Starbucks,-54.24,Dining,Credit Card
+166,2025-07-01,Public Transit,-13.56,Transportation,Checking
+167,2025-07-01,Concert Venue,-40.66,Entertainment,Checking
+168,2025-07-02,Paycheck Direct Deposit,3500.0,Income,Checking
+169,2025-07-03,Electric Company,-95.6247516704176,Utilities,Checking
+170,2025-07-04,Best Buy,-32.17,Shopping,Checking
+171,2025-07-04,Parking,-79.25,Transportation,Credit Card
+172,2025-07-04,Health Insurance,-101.09,Healthcare,Credit Card
+173,2025-07-04,Best Buy,-240.36,Shopping,Checking
+174,2025-07-05,Starbucks,-17.91,Dining,Checking
+175,2025-07-05,Internet Provider,-33.82,Utilities,Checking
+176,2025-07-07,Phone Bill,-16.41,Utilities,Checking
+177,2025-07-07,Parking,-54.59,Transportation,Checking
+178,2025-07-07,Netflix,-59.01,Entertainment,Checking
+179,2025-07-07,Uber,-22.36,Transportation,Credit Card
+180,2025-07-07,Internet Provider,-79.99,Utilities,Checking
+181,2025-07-08,Whole Foods,-41.57,Groceries,Credit Card
+182,2025-07-08,Best Buy,-277.54,Shopping,Credit Card
+183,2025-07-10,Parking,-45.5,Transportation,Credit Card
+184,2025-07-10,Costco,-25.18,Groceries,Credit Card
+185,2025-07-10,Trader Joes,-145.05,Groceries,Checking
+186,2025-07-10,Water Company,-64.33,Utilities,Checking
+187,2025-07-11,Thai Restaurant,-32.85,Dining,Credit Card
+188,2025-07-11,Gym Membership,-68.64,Entertainment,Credit Card
+189,2025-07-11,Amazon,-232.49,Shopping,Checking
+190,2025-07-12,Public Transit,-66.02,Transportation,Checking
+191,2025-07-12,Netflix,-38.31,Entertainment,Credit Card
+192,2025-07-12,Doctor Visit,-79.36,Healthcare,Credit Card
+193,2025-07-12,Public Transit,-30.0,Transportation,Checking
+194,2025-07-14,Phone Bill,-47.19,Utilities,Checking
+195,2025-07-15,Internet Provider,-37.97,Utilities,Checking
+196,2025-07-15,Concert Venue,-20.93,Entertainment,Checking
+197,2025-07-15,Parking,-14.83,Transportation,Credit Card
+198,2025-07-15,Phone Bill,-78.4,Utilities,Checking
+199,2025-07-16,Chipotle,-34.3,Dining,Checking
+200,2025-07-16,Paycheck Direct Deposit,3500.0,Income,Checking
+201,2025-07-17,Netflix,-15.99,Entertainment,Credit Card
+202,2025-07-17,Concert Venue,-98.22,Entertainment,Checking
+203,2025-07-17,Movie Theater,-55.8,Entertainment,Credit Card
+204,2025-07-18,Pharmacy,-69.72,Healthcare,Credit Card
+205,2025-07-18,Spotify,-92.97,Entertainment,Checking
+206,2025-07-19,Home Depot,-113.36,Shopping,Credit Card
+207,2025-07-19,Health Insurance,-175.75,Healthcare,Credit Card
+208,2025-07-19,Pharmacy,-70.91,Healthcare,Credit Card
+209,2025-07-20,Safeway,-116.81,Groceries,Credit Card
+210,2025-07-20,Home Depot,-81.57,Shopping,Credit Card
+211,2025-07-20,Doctor Visit,-196.54,Healthcare,Checking
+212,2025-07-21,Pharmacy,-177.35,Healthcare,Credit Card
+213,2025-07-21,Netflix,-21.36,Entertainment,Credit Card
+214,2025-07-22,Gym Membership,-45.0,Entertainment,Credit Card
+215,2025-07-23,Internet Provider,-46.9,Utilities,Checking
+216,2025-07-25,Parking,-56.95,Transportation,Checking
+217,2025-07-25,Public Transit,-70.43,Transportation,Checking
+218,2025-07-25,Dental Office,-173.42,Healthcare,Credit Card
+219,2025-07-26,Water Company,-99.77,Utilities,Checking
+220,2025-07-26,Netflix,-78.43,Entertainment,Checking
+221,2025-07-27,Whole Foods,-62.17,Groceries,Checking
+222,2025-07-27,Gas Station,-33.11,Transportation,Checking
+223,2025-07-27,Thai Restaurant,-31.49,Dining,Checking
+224,2025-07-30,Gym Membership,-22.88,Entertainment,Credit Card
+225,2025-07-30,Water Company,-51.36,Utilities,Checking
+226,2025-07-31,Parking,-16.85,Transportation,Credit Card
+227,2025-07-31,Parking,-27.44,Transportation,Credit Card
+228,2025-07-31,Water Company,-51.12,Utilities,Credit Card
+229,2025-07-31,Pizza Place,-56.64,Dining,Checking
+230,2025-08-01,Paycheck Direct Deposit,3500.0,Income,Checking
+231,2025-08-02,Electric Company,-131.55298499148086,Utilities,Checking
+232,2025-08-02,Home Depot,-252.36,Shopping,Credit Card
+233,2025-08-02,Water Company,-11.97,Utilities,Credit Card
+234,2025-08-02,Uber,-47.44,Transportation,Checking
+235,2025-08-03,Clothing Store,-77.42,Shopping,Checking
+236,2025-08-03,Clothing Store,-208.16,Shopping,Checking
+237,2025-08-04,Public Transit,-7.5,Transportation,Credit Card
+238,2025-08-05,Gas Station,-61.06,Transportation,Checking
+239,2025-08-06,Internet Provider,-79.99,Utilities,Checking
+240,2025-08-07,Best Buy,-275.34,Shopping,Checking
+241,2025-08-07,Public Transit,-77.55,Transportation,Credit Card
+242,2025-08-07,Water Company,-82.38,Utilities,Credit Card
+243,2025-08-08,Doctor Visit,-174.83,Healthcare,Credit Card
+244,2025-08-08,Dental Office,-36.25,Healthcare,Credit Card
+245,2025-08-10,Water Company,-68.43,Utilities,Checking
+246,2025-08-10,Target,-199.58,Shopping,Credit Card
+247,2025-08-10,Trader Joes,-81.29,Groceries,Credit Card
+248,2025-08-10,Gas Station,-48.84,Transportation,Credit Card
+249,2025-08-12,Netflix,-18.75,Entertainment,Checking
+250,2025-08-12,Target,-267.34,Shopping,Checking
+251,2025-08-12,Concert Venue,-43.39,Entertainment,Credit Card
+252,2025-08-13,Target,-55.86,Groceries,Checking
+253,2025-08-13,Safeway,-90.78,Groceries,Credit Card
+254,2025-08-13,Concert Venue,-95.55,Entertainment,Credit Card
+255,2025-08-13,Uber,-56.77,Transportation,Checking
+256,2025-08-14,Trader Joes,-103.42,Groceries,Checking
+257,2025-08-14,Safeway,-51.66,Groceries,Checking
+258,2025-08-14,Doctor Visit,-32.35,Healthcare,Checking
+259,2025-08-14,Target,-246.72,Shopping,Checking
+260,2025-08-15,Thai Restaurant,-22.29,Dining,Checking
+261,2025-08-15,Paycheck Direct Deposit,3500.0,Income,Checking
+262,2025-08-15,Pharmacy,-69.91,Healthcare,Checking
+263,2025-08-16,Netflix,-15.99,Entertainment,Credit Card
+264,2025-08-17,Clothing Store,-19.5,Shopping,Credit Card
+265,2025-08-17,Safeway,-122.7,Groceries,Checking
+266,2025-08-19,Electric Company,-52.86,Utilities,Credit Card
+267,2025-08-20,Gym Membership,-29.94,Entertainment,Checking
+268,2025-08-21,Netflix,-15.47,Entertainment,Credit Card
+269,2025-08-21,Health Insurance,-96.73,Healthcare,Checking
+270,2025-08-21,Concert Venue,-16.61,Entertainment,Checking
+271,2025-08-21,Gym Membership,-45.0,Entertainment,Credit Card
+272,2025-08-22,Trader Joes,-55.75,Groceries,Credit Card
+273,2025-08-22,Gym Membership,-57.75,Entertainment,Credit Card
+274,2025-08-23,Whole Foods,-130.86,Groceries,Checking
+275,2025-08-23,Concert Venue,-89.93,Entertainment,Credit Card
+276,2025-08-23,Public Transit,-34.9,Transportation,Checking
+277,2025-08-23,Public Transit,-28.44,Transportation,Credit Card
+278,2025-08-24,Target,-32.55,Groceries,Credit Card
+279,2025-08-24,Phone Bill,-16.04,Utilities,Checking
+280,2025-08-25,Best Buy,-175.08,Shopping,Checking
+281,2025-08-26,Pharmacy,-194.31,Healthcare,Credit Card
+282,2025-08-26,Uber,-48.34,Transportation,Checking
+283,2025-08-26,Burger Joint,-35.48,Dining,Checking
+284,2025-08-26,Parking,-32.57,Transportation,Credit Card
+285,2025-08-27,Gas Station,-5.46,Transportation,Checking
+286,2025-08-27,Pharmacy,-129.62,Healthcare,Credit Card
+287,2025-08-27,Trader Joes,-55.53,Groceries,Credit Card
+288,2025-08-27,Home Depot,-34.83,Shopping,Checking
+289,2025-08-29,Electric Company,-34.49,Utilities,Credit Card
+290,2025-08-29,Trader Joes,-40.46,Groceries,Checking
+291,2025-08-29,Gas Station,-63.26,Transportation,Checking
+292,2025-08-29,Concert Venue,-40.68,Entertainment,Credit Card
+293,2025-08-30,Amazon,-17.19,Shopping,Credit Card
+294,2025-08-30,Clothing Store,-27.94,Shopping,Credit Card
+295,2025-08-30,Movie Theater,-29.4,Entertainment,Checking
+296,2025-08-30,Public Transit,-13.32,Transportation,Credit Card
+297,2025-08-31,Paycheck Direct Deposit,3500.0,Income,Checking
+298,2025-08-31,Dental Office,-72.1,Healthcare,Checking
+299,2025-08-31,Target,-117.11,Groceries,Checking
+300,2025-09-01,Electric Company,-127.36896411960379,Utilities,Checking
+301,2025-09-02,Best Buy,-252.51,Shopping,Credit Card
+302,2025-09-02,Target,-132.03,Groceries,Checking
+303,2025-09-03,Safeway,-42.34,Groceries,Credit Card
+304,2025-09-03,Dental Office,-35.86,Healthcare,Checking
+305,2025-09-03,Phone Bill,-36.06,Utilities,Credit Card
+306,2025-09-03,Safeway,-94.85,Groceries,Credit Card
+307,2025-09-05,Movie Theater,-77.12,Entertainment,Checking
+308,2025-09-05,Internet Provider,-79.99,Utilities,Checking
+309,2025-09-06,Costco,-102.32,Groceries,Checking
+310,2025-09-06,Dental Office,-83.2,Healthcare,Checking
+311,2025-09-10,Burger Joint,-36.16,Dining,Credit Card
+312,2025-09-11,Dental Office,-47.17,Healthcare,Checking
+313,2025-09-11,Concert Venue,-66.82,Entertainment,Credit Card
+314,2025-09-11,Amazon,-115.3,Shopping,Checking
+315,2025-09-12,Gym Membership,-59.89,Entertainment,Checking
+316,2025-09-12,Whole Foods,-67.94,Groceries,Credit Card
+317,2025-09-12,Whole Foods,-99.95,Groceries,Credit Card
+318,2025-09-12,Gym Membership,-68.67,Entertainment,Credit Card
+319,2025-09-13,Electric Company,-55.41,Utilities,Checking
+320,2025-09-13,Target,-33.46,Groceries,Credit Card
+321,2025-09-14,Paycheck Direct Deposit,3500.0,Income,Checking
+322,2025-09-15,Safeway,-32.29,Groceries,Credit Card
+323,2025-09-15,Electric Company,-81.03,Utilities,Credit Card
+324,2025-09-15,Gas Station,-34.06,Transportation,Credit Card
+325,2025-09-15,Netflix,-15.99,Entertainment,Credit Card
+326,2025-09-15,Best Buy,-188.79,Shopping,Credit Card
+327,2025-09-17,Uber,-48.71,Transportation,Checking
+328,2025-09-17,Gas Station,-77.58,Transportation,Credit Card
+329,2025-09-19,Parking,-33.25,Transportation,Credit Card
+330,2025-09-20,Gym Membership,-45.0,Entertainment,Credit Card
+331,2025-09-20,Phone Bill,-55.76,Utilities,Checking
+332,2025-09-21,Local Cafe,-62.02,Dining,Credit Card
+333,2025-09-21,Starbucks,-65.0,Dining,Checking
+334,2025-09-23,Best Buy,-253.01,Shopping,Checking
+335,2025-09-24,Home Depot,-58.96,Shopping,Checking
+336,2025-09-24,Doctor Visit,-149.81,Healthcare,Checking
+337,2025-09-25,Thai Restaurant,-21.63,Dining,Credit Card
+338,2025-09-25,Gym Membership,-35.64,Entertainment,Credit Card
+339,2025-09-26,Parking,-78.83,Transportation,Credit Card
+340,2025-09-26,Dental Office,-160.06,Healthcare,Credit Card
+341,2025-09-27,Doctor Visit,-177.14,Healthcare,Checking
+342,2025-09-27,Phone Bill,-88.67,Utilities,Checking
+343,2025-09-28,Uber,-62.23,Transportation,Credit Card
+344,2025-09-29,Health Insurance,-36.51,Healthcare,Checking
+345,2025-09-29,Health Insurance,-179.23,Healthcare,Checking
+346,2025-09-30,Clothing Store,-82.2,Shopping,Checking
+347,2025-09-30,Lyft,-7.11,Transportation,Checking
+348,2025-09-30,Dental Office,-162.45,Healthcare,Checking
+349,2025-09-30,Safeway,-139.26,Groceries,Credit Card
