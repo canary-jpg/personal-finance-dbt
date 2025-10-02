@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: account_balance_tracker
+    description: "Tracks running account balance after each transaction"
+    columns:
+      - name: transaction_date
+        description: "Date of Transaction"
+        tests:
+          - not_null
+
+      - name: balance
+        description: "Account balance after this transaction"
+        tests:
+          - not_null
+      
+      - name: account_type
+        description: "Type of account (checking or credit card)"
+        tests:
+          - not_null
+      
+  - name: spending_anomalies
+    description: "Identifies spending patterns by category and month using statistical analysis"
+    columns:
+      - name: month
+        description: "Month of spending"
+        tests:
+          - not_null
+      - name: z_score
+        description: "Number of standard deviations from average spending from average spending (values >2 or < -2 indicates anomalies)"
+
+      - name: anomaly_flag
+        description: "Classification of spending pattern"
+        tests:
+          - accepted_values:
+              values: ['HIGH ANOMALY', 'MODERATE ANOMALY', 'SLIGHTLY HIGH', 'SLIGHTLY LOW', 'NORMAL']
+
+  - name: monthly_financial_summary
+    description: "Comprehensive monthly financial health dashboard showing income, expenses, savings, and month-over-month trends"
+    columns:
+      - name: month
+        description: "Month of financial summary"
+        tests:
+          - not_null
+          - unique
+
+      - name: total_income
+        description: "Total income received during the month"
+        tests:
+          - not_null
+
+      - name: net_income
+        description: "Income minus expenses (positive = saved money, negative = overspent)"
+        tests:
+          - not_null
+      
+      - name: savings_rate_pct
+        description: "Percentage of income saved (net income / total income * 100)"
+
+      - name: mom_income_change
+        description: "Month-over-month change in income (current month - previous month)"
+
+      - name: mom_expense_change
+        description: "Month-over-month change in expenses"
+
+      - name: financial_health_status
+        description: "Overall financial health based on savings rate"
+        tests:
+          - accepted_values:
+              values: ['EXCELLENT', 'GOOD', 'FAIR', 'CONCERNING']
+          - not_null 
+      
