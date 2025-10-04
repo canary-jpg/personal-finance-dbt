@@ -4,21 +4,8 @@
 ) %}
 
 {% if is_incremental() %}
-    AND {{ date_column }} >= (
-        SELECT DATEADD(day, -{{ lookback_days }}, MAX({{ date_column }}))
-        FROM {{ this }}
-    )
+    -- Snowflake-compatible approach: reference in WHERE with simple logic
+    AND {{ date_column }} >= DATEADD(day, -{{ lookback_days }}, CURRENT_DATE())
 {% endif %}
 
-{% endmacro %}
-
-
-{% macro get_merge_sql(unique_key, update_columns=[]) %}
-    {{
-        config(
-            materialized='incremental',
-            unique_key=unique_key,
-            merge_update_columns=update_columns
-        )
-    }}
 {% endmacro %}

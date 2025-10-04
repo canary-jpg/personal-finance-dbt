@@ -25,7 +25,7 @@ SELECT
     category,
     account_type,
     CASE
-        WHEN amount >= THEN 'income'
+        WHEN amount > 0 THEN 'income'
         ELSE 'expense'
     END as transaction_type,
     loaded_at
