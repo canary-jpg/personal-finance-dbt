@@ -1,3 +1,4 @@
+# dbt automation workflow
 name: Run dbt models
 
 on:
