@@ -1,0 +1,11 @@
+packages:
+  - package: dbt-labs/dbt_utils
+    version: 1.3.1
+  
+  # Audit helper - compare data between environments
+  - package: dbt-labs/audit_helper
+    version: 0.12.0
+  
+  # Codegen - automatically generate dbt code
+  - package: dbt-labs/codegen
+    version: 0.13.1
