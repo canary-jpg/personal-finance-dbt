@@ -1,4 +1,5 @@
 # dbt automation workflow
+# dbt automation workflow
 name: Run dbt models
 
 on:
@@ -31,10 +32,12 @@ jobs:
           SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
           SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+        working-directory: ./personal_finance_analytics
         run: |
           dbt deps
           dbt run --profiles-dir .
           dbt test --profiles-dir .
       
       - name: Generate documentation
+        working-directory: ./personal_finance_analytics
         run: dbt docs generate --profiles-dir .
