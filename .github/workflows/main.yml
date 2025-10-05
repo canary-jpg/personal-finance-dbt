@@ -39,5 +39,5 @@ jobs:
           dbt test --profiles-dir .
       
       - name: Generate documentation
-        working-directory: ./personal_finance_analytics
+        working-directory: ./main
         run: dbt docs generate --profiles-dir .
