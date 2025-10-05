@@ -21,7 +21,8 @@ jobs:
           ls -la
           echo "Files in main directory:"
           ls -la main/
-      
+      - name: Run dbt models
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -33,6 +34,7 @@ jobs:
       
       - name: Run dbt models
         env:
+
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
           SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
@@ -42,8 +44,9 @@ jobs:
         run: |
           cd main
           pwd
-          ls -la
-          dbt deps
+          ls -la profiles.yml
+          cat profiles.yml
+          dbt deps --profiles-dir .
           dbt run --profiles-dir .
           dbt test --profiles-dir .
       
