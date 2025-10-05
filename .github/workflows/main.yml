@@ -34,10 +34,11 @@ jobs:
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
         working-directory: ./main
         run: |
+	  cd main
           dbt deps
           dbt run --profiles-dir .
           dbt test --profiles-dir .
       
       - name: Generate documentation
-        working-directory: ./main
+        working-directory: cd main
         run: dbt docs generate --profiles-dir .
