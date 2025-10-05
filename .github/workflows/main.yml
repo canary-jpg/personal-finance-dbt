@@ -2,29 +2,6 @@ name: Run dbt models
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
-  workflow_dispatch:  # Allows manual triggering
-
-jobs:
-  run_dbt:
-    runs-on: ubuntu-latest
-    
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      
-      - name: Debug - Show directory structure
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in current directory:"
-          ls -la
-          echo "Files in main directory:"
-          ls -la main/
-name: Run dbt models
-
-on:
-  schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
@@ -35,15 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      
-      - name: Debug - Show directory structure
-        run: |
-          echo "Current directory:"
-          pwd
-          echo "Files in current directory:"
-          ls -la
-          echo "Files in main directory:"
-          ls -la main/
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -64,14 +32,6 @@ jobs:
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
         run: |
           cd main
-          pwd
-          ls -la profiles.yml
-          cat profiles.yml
           dbt deps --profiles-dir .
           dbt run --profiles-dir .
           dbt test --profiles-dir .
-      
-      - name: Generate documentation
-        run: |
-          cd main
-          dbt docs generate --profiles-dir .
