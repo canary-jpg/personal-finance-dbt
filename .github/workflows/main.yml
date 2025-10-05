@@ -1,10 +1,10 @@
 # dbt automation workflow
-# dbt automation workflow
+
 name: Run dbt models
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Daily at 6 AM UTC
+    - cron: '0 6 * * *'  # Daily at 6 AM UTC (fixed: 5 fields)
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
           SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
           SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
           SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
-        working-directory: ./personal_finance_analytics
+        working-directory: ./main
         run: |
           dbt deps
           dbt run --profiles-dir .
