@@ -21,8 +21,30 @@ jobs:
           ls -la
           echo "Files in main directory:"
           ls -la main/
-      - name: Run dbt models
+name: Run dbt models
 
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  run_dbt:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Debug - Show directory structure
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files in current directory:"
+          ls -la
+          echo "Files in main directory:"
+          ls -la main/
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -34,7 +56,6 @@ jobs:
       
       - name: Run dbt models
         env:
-
           SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
           SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
           SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
