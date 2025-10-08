@@ -6,3 +6,5 @@ sources:
     schema: PUBLIC
     tables:
       - name: raw_transactions
+      - name: raw_stock_data
+      - name: raw_weather_data
