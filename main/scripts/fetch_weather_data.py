@@ -2,9 +2,12 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 import time
+import os
+from dotenv import load_dotenv
 
 # Configuration
-API_KEY = '9991ff91cfd37e8a9bbb02940193ba76' 
+load_dotenv()
+API_KEY = os.getenv('OPEN_API_KEY') 
 CITY = 'New York'  # Your location
 LAT = 40.7128
 LON = -74.0060
